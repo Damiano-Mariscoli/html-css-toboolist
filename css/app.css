@@ -56,9 +56,8 @@ ul span{
 }
 ul{
     line-height: 40px;
-    list-style-position: inside;
+    list-style: inside;
     padding-left: 0;
-    list-style-type: none;
 }
 li{
     line-height: 50px;
@@ -67,8 +66,7 @@ li{
     padding-left: 50px;
 }
 .main-list{
-    list-style-position: inside;
-    padding-left: 0; 
+    padding-left: 0px; 
 }
 .task-button{
     border: 1px solid #45abe9;
@@ -84,19 +82,25 @@ li{
     padding: 3px;
 }
 .primary-button-padding{
-    padding: 20px 50px;
+    padding: 20px 40px;
 }
 .list-tb-padding{
     padding-top: 20px;
     padding-bottom: 40px;
 }
-.check-mark{
-    content:'\2713';
-}
+
 
 /* UTIL */
 
-
+.arrow-down{
+    list-style-type:'\25BC';
+}
+.checkmark{
+    list-style-type:'\2713';
+}
+.cross{
+    list-style-type:'\2717';
+}
 .button-cyan{
     background-color: #45abe9;
 }
