@@ -12,9 +12,7 @@
 html {
     font-family: 'poppins','system ui';
 }
-/* ul{
-    list-style: none;
-} */
+
 
 
 /* STYLE */
@@ -51,8 +49,8 @@ html {
 }
 ul span{
     border: 0px solid white; 
-    border-radius: 12px;
-    padding: 5px;
+    border-radius: 10px;
+    padding: 7px;
     color:white ;
     font-size: 12px;
 }
@@ -60,6 +58,7 @@ ul{
     line-height: 40px;
     list-style-position: inside;
     padding-left: 0;
+    list-style-type: none;
 }
 li{
     line-height: 50px;
@@ -91,6 +90,9 @@ li{
     padding-top: 20px;
     padding-bottom: 40px;
 }
+.check-mark{
+    content:'\2713';
+}
 
 /* UTIL */
 
@@ -109,4 +111,7 @@ li{
 }
 .button-lime{
     background-color: #b0c926;
+}
+.button-pink{
+    background-color: #d863a0;
 }
