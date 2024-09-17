@@ -2,6 +2,8 @@
 
 
 /* RESET RULES */
+
+
 *{
     box-sizing: border-box;
     margin: 0 auto;
@@ -17,12 +19,13 @@ html {
 
 /* STYLE */
 
+
 .logo-container{
     max-width: 1564px;
     margin: 0 auto;
 }
 .logo-margin{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .container{
     max-width: 1024px;
@@ -42,19 +45,16 @@ html {
 .main-header-bg{
     background-color: white;
 }
-
-
-/* UTIL */
 .main-border{
-    border: 5px solid black;
-    border-radius: 5px;
+    border: 15px solid white;
+    border-radius: 10px;
 }
 ul span{
     border: 0px solid white; 
-    border-radius: 10px;
-    padding: 8px;
+    border-radius: 12px;
+    padding: 5px;
     color:white ;
-    font-size: 11px;
+    font-size: 12px;
 }
 ul{
     line-height: 40px;
@@ -65,13 +65,48 @@ li{
     line-height: 50px;
 }
 .main-padding{
-    padding-left: 20px;
+    padding-left: 50px;
 }
 .main-list{
     list-style-position: inside;
-    padding-left: 0;
-    
+    padding-left: 0; 
 }
+.task-button{
+    border: 1px solid #45abe9;
+    background-color: #45abe9;
+    color:white;
+    border-radius: 5px;
+    padding: 3px;
+}
+.section-button{
+    border: 1px solid #c5cbd0;
+    color:#c5cbd0;
+    border-radius: 5px;
+    padding: 3px;
+}
+.primary-button-padding{
+    padding: 20px 50px;
+}
+.list-tb-padding{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* UTIL */
+
+
 .button-cyan{
     background-color: #45abe9;
+}
+.button-purple{
+    background-color: #9c72e4;
+}
+.button-green{
+    background-color: #64c0a9;
+}
+.button-orange{
+    background-color: #f29e33;
+}
+.button-lime{
+    background-color: #b0c926;
 }
