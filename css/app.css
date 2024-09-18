@@ -12,8 +12,14 @@
 html {
     font-family: 'poppins','system ui';
 }
-
-
+ul{
+    list-style: none;
+    padding-left: 20px;
+}
+li{
+    padding-left: 0px;
+    line-height: 40px;
+}
 
 /* STYLE */
 
@@ -27,7 +33,7 @@ html {
 }
 .container{
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 .logo-text{
     font-size: 40px;
@@ -38,7 +44,7 @@ html {
     background-color: white;
 }
 .body-bg{
-    background-color: rgb(202, 182, 182);
+    background-color: #345e74;
 }
 .main-header-bg{
     background-color: white;
@@ -46,34 +52,20 @@ html {
 .main-border{
     border: 15px solid white;
     border-radius: 10px;
+    padding-bottom: 50px;
 }
-ul span{
-    border: 0px solid white; 
-    border-radius: 10px;
-    padding: 7px;
-    color:white ;
-    font-size: 12px;
-}
-ul{
-    line-height: 40px;
-    list-style: inside;
-    padding-left: 0;
-}
-li{
-    line-height: 50px;
-}
+
 .main-padding{
     padding-left: 50px;
 }
-.main-list{
-    padding-left: 0px; 
-}
+
 .task-button{
     border: 1px solid #45abe9;
     background-color: #45abe9;
     color:white;
     border-radius: 5px;
     padding: 3px;
+    
 }
 .section-button{
     border: 1px solid #c5cbd0;
@@ -81,25 +73,44 @@ li{
     border-radius: 5px;
     padding: 3px;
 }
-.primary-button-padding{
-    padding: 20px 40px;
+.button-task{
+    border: solid 1px;
 }
-.list-tb-padding{
-    padding-top: 20px;
-    padding-bottom: 40px;
+ul div{
+    margin-top: 20px;
+}
+.button-task-head{
+    margin-left: 40px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px rgb(196, 192, 192);
+}
+
+ul div button{
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 6px;
+    margin: 6px;
+    color: white;
+}
+.circle-mark{
+    border: solid 1px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 18px;
+    text-align: center;
+    display:inline-block;
 }
 
 
 /* UTIL */
 
-.arrow-down{
-    list-style-type:'\25BC';
-}
 .checkmark{
-    list-style-type:'\2713';
+    color: green;
 }
 .cross{
-    list-style-type:'\2717';
+    color: red;
 }
 .button-cyan{
     background-color: #45abe9;
